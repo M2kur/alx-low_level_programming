@@ -2,4 +2,6 @@
 #define HOLBERTON_H_INCLUDED
 
 int _putchar(char c);
-viod print_alphabet(void);
+void print_alphabet(void);
+
+#endif
