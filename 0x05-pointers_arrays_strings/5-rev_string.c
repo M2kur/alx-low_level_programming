@@ -16,7 +16,7 @@ void rev_string(char *s)
 	while (i > a)
 	{
 		Aux = s[i];
-		s[1--] = s[a];
+		s[i--] = s[a];
 		s[a++] = Aux;
 	}
 }
