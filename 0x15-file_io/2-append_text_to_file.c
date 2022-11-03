@@ -27,7 +27,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (1);
 	}
 
-	hile (*(text_content + len))
+	while (*(text_content + len))
 		len++;
 
 	fdw = write(fdo, text_content, len);
